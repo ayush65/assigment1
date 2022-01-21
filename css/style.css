@@ -28,7 +28,7 @@
     width: 100%;
 }
 
-#header,#header1,#header2,#header3 {
+#header,#header1,#header2,#header3,#header5 {
     position: absolute;
     
     background-color: transparent;
@@ -42,9 +42,10 @@
 }
 
 #header3 {
-    color: black;
+    color: #223843;
     top: 15px;
-    right: 105px;
+    right: 70px;
+    font-size: 30px;
 }
 
 #header2 {
@@ -55,6 +56,14 @@
 }
 
 #header1 {
+    color: #223843;
+    bottom: 96px;
+    left: 25px;
+    font-size:35px;
+    
+}
+
+#header5 {
     color: #223843;
     bottom: 76px;
     left: 25px;
@@ -130,30 +139,35 @@
 #button1 {
     background-color: #1F333D;
     position: absolute;
-    bottom: 3%;
+    bottom: 0%;
     left: 5%;
     font-size: 19px;
     color: white;
     font-weight: bold;
     size: 20px;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
     
     
 }
 
-#button1:active {
-    background-color: #758283;
-    color: black;
+#button1:hover {
+    background-color: #375B6D;
+    color: white;
 }
-#button2:active {
-    background-color: #758283;
-    color: black;
+
+#button2:hover {
+    background-color: #375B6D;
+    color: white;
 }
 
 #button2 {
     background-color: #1F333D;
     position: absolute;
-    bottom: 3%;
+    cursor: pointer;
+    bottom: 0%;
     left: 15%;
+    padding: 0.5rem 0.5rem;
     font-size: 19px;
     color: white;
     font-weight: bold;
@@ -236,8 +250,6 @@
     top: 23px;
     border-bottom: 1px solid #758283;
 }
-
-
 
 
 
